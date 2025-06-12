@@ -6,7 +6,7 @@ library(broom)
 library(nlraa)
 library(stringi)
 
-### Collate all published data on temperature, light and oxygen from degradation experiments 
+### Collate all published data on temperature, light and oxygen from degradation experiments when averages not reported within study  
 
 ### 1. Import datasets from tables, downloaded from published articles.  
 

@@ -136,7 +136,7 @@ n_nfresh <- 16
 
 export_fresh <- (exp(-CRT*k_fresh))*0.71
 export_nfresh <-(exp(-CRT*k_nfresh))*0.71 # smaller export potential due to faster degradation 
-export_fresh/export_nfresh # 257
+export_fresh/export_nfresh # 257 times bigger
 
 # refractory 
 
@@ -155,7 +155,7 @@ n_NR <- 131
 
 export_R <- (exp(-CRT*k_R))*0.71 # smaller export potential due to faster degradation 
 export_NR <-(exp(-CRT*k_NR))*0.71 
-export_NR/export_R # 5 
+export_NR/export_R # 5 times bigger 
 
 test <- data.frame(export = c(export_FD_reported, export_int, export_sub, export_fresh, export_nfresh, export_R, export_NR), 
                    sample_size = c(n_FD, n_int, n_sub, n_fresh, n_nfresh, n_R, n_NR),
